@@ -4,7 +4,8 @@ Real‑time person & car detection with YOLOv5 inside Microsoft AirSim, plus sim
 
 [▶️ Watch the demo on YouTube](https://youtu.be/SuTeEVTpxuw?si=joeSaWKcEFA3DiKz)
 
-![Drone Object Detection Demo](assets/drone object detection.gif)
+![Drone Object Detection Demo](assets/drone_object_detection.gif)
+
 
 ---
 
