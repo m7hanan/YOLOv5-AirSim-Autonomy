@@ -2,7 +2,7 @@
 
 Real‑time person & car detection with YOLOv5 inside Microsoft AirSim, plus simple waypoint navigation and basic collision avoidance.
 
-[▶️ Watch the demo on YouTube]([https://youtu.be/REPLACE_WITH_YOUR_VIDEO](https://youtu.be/SuTeEVTpxuw?si=joeSaWKcEFA3DiKz))
+[▶️ Watch the demo on YouTube]([https://youtu.be/REPLACE_WITH_YOUR_VIDEO]](https://youtu.be/SuTeEVTpxuw?si=joeSaWKcEFA3DiKz)
 
 <img src="assets/demo.gif" alt="demo" width="720"/>
 
