@@ -1,0 +1,11 @@
+# Core
+numpy>=1.23
+opencv-python>=4.7
+torch>=2.1
+torchvision>=0.16
+# YOLOv5 via torch.hub uses ultralytics/yolov5 repo under the hood
+# AirSim Python API
+msgpack-rpc-python>=0.4.1
+airsim==1.8.1
+# Config & CLI
+pyyaml>=6.0.1

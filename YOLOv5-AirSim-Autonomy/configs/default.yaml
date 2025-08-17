@@ -1,0 +1,23 @@
+airsim:
+  ip: 127.0.0.1
+  port: 41451
+  vehicle_name: ""
+
+vision:
+  model: yolov5s
+  classes: [0, 2]   # person, car
+  conf: 0.6
+  iou: 0.45
+  headless: false   # set true for servers
+
+nav:
+  speed: 3.0
+  waypoints:
+    - [10, 10, -10]
+    - [10, 12, -20.81]
+    - [15, 60, -4]
+    - [22, 29, -13.88]
+
+recording:
+  output: videos/demo.mp4
+  fps: 30
