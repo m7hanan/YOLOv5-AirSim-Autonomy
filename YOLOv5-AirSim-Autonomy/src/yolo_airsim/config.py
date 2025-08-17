@@ -36,8 +36,16 @@ class RecordingCfg:
 class Config:
     airsim: AirSimCfg = AirSimCfg()
     vision: VisionCfg = VisionCfg(classes=[0, 2])
-    nav: NavCfg = NavCfg(waypoints=[[10, 10, -10]])
+    nav: NavCfg = NavCfg(
+        waypoints=[
+            [10, 10, -10],
+            [10, 12, -20.81],
+            [15, 60, -4],
+            [22, 29, -13.88]
+        ]
+    )
     recording: RecordingCfg = RecordingCfg()
+
 
 
 def load_config() -> Config:
@@ -59,4 +67,5 @@ def load_config() -> Config:
         vision=merge(VisionCfg, y.get("vision", {})),
         nav=merge(NavCfg, y.get("nav", {})),
         recording=merge(RecordingCfg, y.get("recording", {})),
+
     )
